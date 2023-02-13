@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+:root {
+  --primary: #00baf2;
+  --text-color: #fff;
+  --secondary: #95989a;
+  --text-secondary: #000;
+  --text-tertiary: #5d5d5d;
+}
+
+.head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("img/hrz-5.jpg");
+  height: 85vh;
+  color: var(--text-color);
+}
+
+.disclaimer h1,
+.date-info {
+  color: var(--primary);
+}
+
+.lorem_info {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.disclaimer h1 {
+  font-size: 3em;
+}
+
+.date {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.date-info {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.form {
+  background-color: var(--secondary);
+  padding: 2em;
+  max-width: 22%;
+}
+
+.form p {
+  font-size: 1.3em;
+  color: var(--text-secondary);
+  margin-bottom: 1em;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.form-group label {
+  color: var(--text-tertiary);
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
+.form-group input,
+.form-group select {
+  border: none;
+  border-radius: 5px;
+  padding: 6px 8px;
+  outline: none;
+}
+
+.btn {
+  background-color: var(--primary);
+  border: none;
+  width: 100%;
+  padding: 12px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+h2 {
+  background-color: var(--secondary);
+  height: 13vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  margin-bottom: 3em;
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 80%;
+  margin: 75px auto;
+}
+
+.benefit {
+  text-align: center;
+}
+
+.benefit-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-bottom: 23px;
+}
+
+.about-location {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(img/hrz-1.jpg);
+  height: 45vh;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+}
+
+.bi-bi-geo-alt-fill {
+  color: var(--primary);
+}
+
+.locations {
+  display: flex;
+  align-items: center;
+}
+
+.location {
+  text-align: center;
+  margin-left: 40px;
+  color: var(--text-color);
+}
+
+.location_info {
+  max-width: 30%;
+}
+
+.location_info h3 {
+  color: var(--primary);
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+.location_info p {
+  color: var(--text-color);
+}
+
+/**
+section details
+*/
+
+.details {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.detail-1,
+.detail-2,
+.detail-3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5%;
+  margin-bottom: 4em;
+}
+
+.detail-1 img,
+.detail-2 img,
+.detail-3 img {
+  width: 50%;
+}
+
+.detail-1 h3,
+.detail-2 h3,
+.detail-3 h3 {
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.detail_description {
+  width: 100%;
+  padding-left: 2em;
+}
+
+.detail_description ul li:last-child {
+  font-weight: bold;
+}
+
+.about_btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(img/hrz-6.jpg);
+  height: 35vh;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 4rem;
+  color: var(--text-color);
+}
+
+.about_btn h3 {
+  margin-bottom: 3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.btn_abb {
+  background-color: var(--primary);
+  border: none;
+  width: 25%;
+  padding: 12px;
+  cursor: pointer;
+  color: var(--text-color);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 45px;
+  color: var(--secondary);
+}
+
+.footer h3 {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.footer p:nth-child(2) {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.footer span {
+  font-weight: bold;
+}
